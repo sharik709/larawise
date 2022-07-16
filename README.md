@@ -44,6 +44,7 @@ $profile = Larawise::profiles()->get($profileId);
 
 ## 2. Balance
 > Balance needs profile ID of the user which you can get from 1.1
+### 2.1 Get all Balance
 ```php
 use Larawise\Larawise;
 
@@ -53,7 +54,7 @@ $profileId = 12345; // Wise's profile id. Which you can get by calling `all` met
 $profiles = Larawise::balance($profileId)->all();
 ```
 
-### 1.2 Get A particular User Profile
+### 2.2 Get A particular Balance
 ```php
 use Larawise\Larawise;
 

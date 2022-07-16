@@ -1,0 +1,19 @@
+{
+    "name": "sharik709/larawise",
+    "description": "laravel wise package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sharik709\\Larawise\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sharik shaikh",
+            "email": "shaikhsharik709@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
